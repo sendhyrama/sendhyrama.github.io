@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sendhyrama's Link</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="preload" href="./images/bg01.jpg" as="image" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            VANTA.BIRDS({
+                el: "#vanta",
+                mouseControls: true,
+                touchControls: true,
+                gyroControls: true,
+                minHeight: 200.00,
+                minWidth: 200.00,
+                scale: 1.00,
+                scaleMobile: 1.00,
+                backgroundAlpha: 0.0,
+                color2: 0xff00f0,
+                wingSpan: 40.00,
+                separation: 100.00,
+                alignment: 77.00,
+                cohesion: 5.00,
+                birdSize: 1.20,
+                quantity: 4.00
+            })
+
+            setTimeout(() => {
+                const main = document.querySelector('main')
+                main.style.opacity = 1
+                main.style.filter = 'blur(0px)'
+            }, 1000)
+        })
+    </script>
+</head>
+<body>
+    <div id="vanta"></div>
+    <main class="animated">
+        <header>
+            <img src="./images/logo.png">
+            <!-- <a href="instagram.com/sendhyrama"><h1 style="text-align: center;">@sendhyrama</h1></a> -->
+            <h1 style="text-align: center;" href="instagram.com/sendhyrama">@sendhyrama</h1>
+            
+        </header>
+            <ul>
+                <li>
+                    <a href="https://sendhyrama.github.io">
+            Portfolio Website
+        </a>
+    </li>
+    <li>
+        <a href="https://github.com/sendhyrama">
+            GitHub
+        </a>
+    </li>
+    <li>
+        <a href="https://twitter.com/sendhyrama">
+            Twitter
+        </a>
+    </li>
+    <li>
+        <a href="https://dev.to/sendhyrama">
+            Dev.to
+        </a>
+    </li>
+    <li>
+        <a href="https://medium.com/sendhyrama">
+            Medium
+        </a>
+    </li>
+    <li>
+        <a href="https://dribbble.com/sendhyrama">
+            Dribbble
+        </a>
+    </li>
+</ul>
+</header>
+</main>
+</body>
+</html>
