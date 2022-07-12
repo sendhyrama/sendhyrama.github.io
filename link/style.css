@@ -15,7 +15,7 @@ body, html {
   }
   
   body {
-    background: url(./images/mainbg.jpg) no-repeat center center fixed;
+    background: url(./images/secbg.jpg) no-repeat center center fixed;
     background-size: cover;
   }
   
@@ -56,18 +56,24 @@ body, html {
     align-items: center;
   }
   
-  header > img {
+  header > a > img {
     width: 6em;
     height: 6em;
     border-radius: 100%;
     border: 1px solid #fff;
     box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
   }
+
+  header > a > img:hover {
+    transform: scale(1.2);
+    transition: 1s;
+    transform-style: flat;
+  }
   
-  header > h1 {
+  header > a > h1 {
     display: inline-block;
-    font-size: 0.8em;
-    font-weight: 500;
+    font-size: 0.9em;
+    font-weight: 550;
     border-radius: 1em;
     background-color: #000a;
     color: #fff;
@@ -77,23 +83,42 @@ body, html {
     -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
     margin: 10px;
   }
+
+  header > a > h1:hover {
+    transform: scale(1.2);
+    transition: 1s;
+    transform-style: flat;
+  }
   
   ul {
     box-sizing: border-box;
     list-style: none;
     margin: 0 auto;
     padding: 1em;
-    max-width: 400px;
+    max-width: 350px;
   }
   
   ul > li {
     background-color: #fffa;
     backdrop-filter: blur(10px) saturate(160%) contrast(180%);
     -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
+    border-radius: 20px;
+    padding: 1em;
+    margin: 1.4em 0;
+    box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
+    cursor: pointer;
+  }
+
+  ul > li:hover {
+    background-color: yellowgreen;
+    backdrop-filter: blur(10px) saturate(160%) contrast(180%);
+    -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
     border-radius: 10em;
     padding: 1em;
     margin: 1.4em 0;
     box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
+    transition: 0.8s;
+    transform: scale(1.1);
   }
   
   ul > li > a {
@@ -109,4 +134,19 @@ body, html {
     text-decoration: none;
     font-weight: bold;
     
+  }
+
+  /* ========== Footer section ========== */
+  .footer {
+    padding: 30px 0;
+    margin: auto;
+  }
+
+  .footer-text {
+    text-align: center;
+  }
+
+  .footer-text a {
+    text-align: center;
+    color: var(--color-primary);
   }

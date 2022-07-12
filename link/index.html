@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sendhyrama's Link</title>
+    <link rel="icon" href="./images/logo.png">
     <link rel="stylesheet" href="style.css" type="text/css">
-    <link rel="preload" href="./images/bg01.jpg" as="image" />
+    <link rel="preload" href="./images/secbg.jpg" as="image" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
     <script>
@@ -16,8 +17,8 @@
                 mouseControls: true,
                 touchControls: true,
                 gyroControls: true,
-                minHeight: 200.00,
-                minWidth: 200.00,
+                minHeight: 1000.00,
+                minWidth: 1000.00,
                 scale: 1.00,
                 scaleMobile: 1.00,
                 backgroundAlpha: 0.0,
@@ -27,7 +28,7 @@
                 alignment: 77.00,
                 cohesion: 5.00,
                 birdSize: 1.20,
-                quantity: 4.00
+                quantity: 2.00
             })
 
             setTimeout(() => {
@@ -40,11 +41,14 @@
 </head>
 <body>
     <div id="vanta"></div>
+    <audio autoplay loop>
+        <source src="./sounds/suara2.mp3" type="audio/mp3" autostart>
+    </audio>
+    <!-- <embed src="./sounds/suara2.mp3" loop="true" autostart width="2" height="0"></embed> -->
     <main class="animated">
         <header>
-            <img src="./images/logo.png">
-            <!-- <a href="instagram.com/sendhyrama"><h1 style="text-align: center;">@sendhyrama</h1></a> -->
-            <h1 style="text-align: center;" href="instagram.com/sendhyrama">@sendhyrama</h1>
+            <a href="https://instagram.com/sendhyrama"><img src="./images/fotoku.jpg" alt="Logo Sendhy"></a>
+            <a href="https://instagram.com/sendhyrama"><h1 style="text-align: center;" href="https://instagram.com/sendhyrama">@sendhyrama</h1></a>
             
         </header>
         <ul>
@@ -55,9 +59,9 @@
                 </a>
             </li>
             <li>
-                <a href="https://github.com/sendhyrama">
-                    <img src="./images/github-sign.png" alt="Github" width="20" />
-                    GitHub
+                <a href="https://linkedin.com/in/sendhyrama">
+                    <img src="./images/linkedin.png" alt="Linkedin" width="20" />
+                    Linkedin
                 </a>
             </li>
             <li>
@@ -67,13 +71,19 @@
                 </a>
             </li>
             <li>
+                <a href="https://github.com/sendhyrama">
+                    <img src="./images/github-sign.png" alt="Github" width="20" />
+                    GitHub
+                </a>
+            </li>
+            <li>
                 <a href="https://dev.to/sendhyrama">
                     <img src="./images/dev.png" alt="Dev" width="20" />
                     Dev.to
                 </a>
             </li>
             <li>
-                <a href="https://medium.com/sendhyrama">
+                <a href="https://sendhyrama.medium.com">
                     <img src="./images/medium.png" alt="Medium" width="20" />
                     Medium
                 </a>
@@ -86,6 +96,14 @@
             </li>
         </ul>
         </header>
+
+        <footer class="footer">
+            <div class="footer-text padd-15" style="text-align:center;">
+                <p>Copyright &copy; 2022. All Rights Reserved.</p>
+                <p>Made With &#10084;&#65039; by <a href="https://instagram.com/sendhyrama" target="_blank">Sens</a></p>
+            </div>
+        </footer>
+        
     </main>
 </body>
 </html>
