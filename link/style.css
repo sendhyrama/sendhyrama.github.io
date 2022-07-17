@@ -138,8 +138,8 @@ body, html {
 
   /* ========== Footer section ========== */
   .footer {
-    padding: 30px 0;
-    margin: auto;
+    padding: 20px 0;
+    margin-bottom: 10px;
   }
 
   .footer-text {
