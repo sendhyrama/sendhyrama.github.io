@@ -1,0 +1,50 @@
+[
+  {
+    "id": 6,
+    "title": "PT Impactbyte Teknologi Edukasi",
+    "role": "UI/UX Designer (intern)",
+    "description": "Virtual internship to be a good UI/UX Designer. This program is a part of Magang dan Studi Independen Bersertifikat (MSIB) - Kampus Merdeka Batch 3.",
+    "time": "Aug 2022 - Present",
+    "tags": ["code", "open source", "collabs"]
+  },
+  {
+    "id": 5,
+    "title": "WAKimart Indonesia",
+    "role": "Frontend Web Developer (intern)",
+    "description": "Joining internship program as a Junior Frontend Web Developer.",
+    "time": "Jan 2022 - Jun 2022",
+    "tags": ["code", "open source", "collabs"]
+  },
+  {
+    "id": 4,
+    "title": "BEM Fasilkom UPN Veteran Jawa Timur",
+    "role": "Staff of Research and Development",
+    "description": "BEM Fasilkom is an organization of computer science student executive board",
+    "time": "Jan 2022 - Present",
+    "tags": ["organization", "research", "development"]
+  },
+  {
+    "id": 3,
+    "title": "Harisenin.com",
+    "role": "Campaign Volunteer #SadarHarusBelajar",
+    "description": "",
+    "time": "Dec 2021",
+    "tags": ["campaign", "volunteer", "asik"]
+  },
+  {
+    "id": 2,
+    "title": "HIMASIFO UPN Veteran Jawa Timur",
+    "role": "Staff of Research and Development",
+    "description": "HIMASIFO is an organization of information systems student at my college.",
+    "time": "Jan 2021 - Jan 2022",
+    "tags": ["organization", "research", "development"]
+  },
+  {
+    "id": 1,
+    "title": "Surabaya Developer",
+    "role": "Staff Volunteer of Research and Development Division",
+    "description": "",
+    "time": "Jan 2021 - Jul 2021",
+    "tags": ["volunteer", "research", "development"]
+  }
+]

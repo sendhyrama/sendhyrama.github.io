@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "social": "Email",
+    "slug": "sendhyrama@gmail.com",
+    "canonical_url": "mailto:sendhyrama@gmail.com"
+  },
+  {
+    "id": 2,
+    "social": "GitHub",
+    "slug": "github.com/sendhyrama",
+    "canonical_url": "https://github.com/sendhyrama"
+  },
+  {
+    "id": 3,
+    "social": "Dev.to",
+    "slug": "dev.to/sendhyrama",
+    "canonical_url": "https://dev.to/sendhyrama"
+  },
+  {
+    "id": 4,
+    "social": "Instagram",
+    "slug": "instagram.com/sendhyrama",
+    "canonical_url": "https://www.instagram.com/sendhyrama/"
+  }
+]
