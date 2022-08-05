@@ -1,6 +1,7 @@
-### portfolio-website
+### PORTFOLIO-WEBSITE
 
 Getting started to portfolio website build with NextJS and ChakraUI.
+[still on progress]
 
 ---
 
