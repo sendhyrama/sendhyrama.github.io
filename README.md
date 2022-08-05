@@ -1,8 +1,6 @@
-# nextjs-portfolio
+### portfolio-website
 
-Getting started to Next.js for my portfolio.
-
-![og image](public/img/og-image.png)
+Getting started to portfolio website with NextJS and ChakraUI.
 
 ---
 
