@@ -1,5 +1,0 @@
-{
-  "prettier.printWidth": 120,
-  "workbench.editor.showTabs": true,
-  "discord.detailsEditing": "branch: {git_branch}"
-}
