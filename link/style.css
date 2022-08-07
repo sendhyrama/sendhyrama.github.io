@@ -15,7 +15,8 @@ body, html {
   }
   
   body {
-    background: url(./images/secbg.jpg) no-repeat center center fixed;
+    /* background: url(./images/secbg.jpg) no-repeat center center fixed; */
+    background-color: #e0e0e0;
     background-size: cover;
   }
   
@@ -79,8 +80,8 @@ body, html {
     color: #fff;
     padding: 0.3em 0.6em;
     border: 1px solid #fffa;
-    backdrop-filter: blur(10px) saturate(160%) contrast(180%);
-    -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
+    backdrop-filter: blur(0px) saturate(160%) contrast(180%);
+    -webkit-backdrop-filter: blur(0px) saturate(160%) contrast(180%);
     margin: 10px;
   }
 
@@ -99,9 +100,9 @@ body, html {
   }
   
   ul > li {
-    background-color: #fffa;
-    backdrop-filter: blur(10px) saturate(160%) contrast(180%);
-    -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
+    background-color: #FFFFFF;
+    backdrop-filter: blur(0px) saturate(160%) contrast(180%);
+    -webkit-backdrop-filter: blur(0px) saturate(160%) contrast(180%);
     border-radius: 20px;
     padding: 1em;
     margin: 1.4em 0;
@@ -110,9 +111,9 @@ body, html {
   }
 
   ul > li:hover {
-    background-color: yellowgreen;
-    backdrop-filter: blur(10px) saturate(160%) contrast(180%);
-    -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
+    background-color: rgb(158, 226, 253);
+    backdrop-filter: blur(0px) saturate(160%) contrast(180%);
+    -webkit-backdrop-filter: blur(0px) saturate(160%) contrast(180%);
     border-radius: 10em;
     padding: 1em;
     margin: 1.4em 0;
@@ -144,9 +145,11 @@ body, html {
 
   .footer-text {
     text-align: center;
+    color: black;
   }
 
   .footer-text a {
     text-align: center;
-    color: var(--color-primary);
+    color: black;
+    /* color: var(--color-primary); */
   }
