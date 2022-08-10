@@ -111,7 +111,7 @@ body, html {
   }
 
   ul > li:hover {
-    background-color: rgb(158, 226, 253);
+    background-color: yellowgreen;
     backdrop-filter: blur(0px) saturate(160%) contrast(180%);
     -webkit-backdrop-filter: blur(0px) saturate(160%) contrast(180%);
     border-radius: 10em;
