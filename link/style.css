@@ -15,8 +15,8 @@ body, html {
   }
   
   body {
-    /* background: url(./images/secbg.jpg) no-repeat center center fixed; */
-    background-color: #e0e0e0;
+    background: url(./images/secbg.jpg) no-repeat center center fixed;
+    /* background-color: #e0e0e0; */
     background-size: cover;
   }
   
@@ -145,11 +145,11 @@ body, html {
 
   .footer-text {
     text-align: center;
-    color: black;
+    color: #FFFFFF;
   }
 
   .footer-text a {
     text-align: center;
-    color: black;
+    color: #FFFFFF;
     /* color: var(--color-primary); */
   }
