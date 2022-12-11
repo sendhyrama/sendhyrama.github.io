@@ -15,8 +15,8 @@ body, html {
   }
   
   body {
-    background: url(./images/secbg.jpg) no-repeat center center fixed;
-    /* background-color: #e0e0e0; */
+    /* background: url(./images/secbg.jpg) no-repeat center center fixed; */
+    background-color: #e0e0e0;
     background-size: cover;
   }
   
