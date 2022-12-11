@@ -200,11 +200,11 @@ body, html {
 
   .footer-text {
     text-align: center;
-    color: #FFFFFF;
+    color: black;
   }
 
   .footer-text a {
     text-align: center;
-    color: #FFFFFF;
+    color: black;
     /* color: var(--color-primary); */
   }
