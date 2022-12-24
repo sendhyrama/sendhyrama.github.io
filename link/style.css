@@ -58,15 +58,15 @@ body, html {
   }
   
   header > a > img {
-    width: 6em;
-    height: 6em;
+    width: 9em;
+    height: 9em;
     border-radius: 100%;
     border: 1px solid #fff;
     box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
   }
 
   header > a > img:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: 1s;
     transform-style: flat;
   }
@@ -86,7 +86,7 @@ body, html {
   }
 
   header > a > h1:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: 1s;
     transform-style: flat;
   }
